@@ -7,7 +7,7 @@ addButton.addEventListener('click', (e) => {
   const title = document.getElementById('title').value.trim();
   const author = document.getElementById('author').value.trim();
   addBooks(title, author);
-  display();
+  display('');
 });
 
 const addBooks = (Title, Author) => {
@@ -22,7 +22,7 @@ const addBooks = (Title, Author) => {
 };
 
 window.addEventListener('DOMContentLoaded', () => {
-  display();
+  display('');
 });
 
 function display() {
