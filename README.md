@@ -109,7 +109,7 @@ To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder or download the Zip folder:
 
 ```
-git clone (https://github.com/LethaboMot/capstone-project.git)
+git clone (https://github.com/LethaboMot/Awesome-books.git)
 ```
 
 - Navigate to the location of the folder in your machine:
@@ -169,6 +169,10 @@ git checkout  feature
 
 - GitHub: [@LethaboMot](https://github.com/LethaboMot)
 - LinkedIn: [Lethabo Motloung](https://linkedin.com/in/linkedinhandle)
+
+👤 **Author2**
+
+- GitHub: [@Anwaar12](https://github.com/Anwaar12)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
