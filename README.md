@@ -173,6 +173,8 @@ git checkout  feature
 👤 **Author2**
 
 - GitHub: [@Anwaar12](https://github.com/Anwaar12)
+- Twitter: [Anwaar154](https://twitter.com/Anwaar154)
+- LinkedIn: [Anwaar12](https://www.linkedin.com/in/anwaar-salam-61a3821b0/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
