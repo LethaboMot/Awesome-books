@@ -37,7 +37,6 @@ function display() {
         display += `
         <div>
         <p>${addedSection.title}</p>
-
         <p>${addedSection.author}</p>
         <button onclick="removeBook(${i})">Remove</button>
         <hr />
