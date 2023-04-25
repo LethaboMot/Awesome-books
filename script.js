@@ -2,14 +2,6 @@ const addButton = document.getElementsByClassName('add-btn')[0];
 const addedSection = document.getElementsByClassName('books')[0];
 let books;
 
-addButton.addEventListener('click', (e) => {
-  e.preventDefault();
-  const title = document.getElementById('title').value.trim();
-  const author = document.getElementById('author').value.trim();
-  addBooks(title, author);
-  display('');
-});
-
 const addBooks = (Title, Author) => {
   if (Title !== '' && Author !== '') {
     const obj = {
@@ -20,10 +12,6 @@ const addBooks = (Title, Author) => {
     localStorage.setItem('Books', JSON.stringify(books));
   }
 };
-
-window.addEventListener('DOMContentLoaded', () => {
-  display('');
-});
 
 function display() {
   if (localStorage.getItem('Books') == null) {
@@ -45,6 +33,22 @@ function display() {
   });
   addedSection.innerHTML = display;
 }
+
+addButton.addEventListener('click', (e) => {
+  e.preventDefault();
+  const title = document.getElementById('title').value.trim();
+  const author = document.getElementById('author').value.trim();
+  addBooks(title, author);
+  display('');
+});
+
+
+
+window.addEventListener('DOMContentLoaded', () => {
+  display('');
+});
+
+
 
 const removeBook = (id) => {
   if (localStorage.getItem('Books') == null) {
