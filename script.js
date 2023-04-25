@@ -57,5 +57,5 @@ function removeBook(id) {
   display();
   removeBook('');
 }
-const deleteButton =document.getElementByClassName('remove')
-deleteButton.addEventListner('click', removeBook())
+const deleteButton = document.getElementByClassName('remove');
+deleteButton.addEventListner('click', removeBook());
