@@ -46,7 +46,7 @@ window.addEventListener('DOMContentLoaded', () => {
   display('');
 });
 
-const removeBook = (id) => {
+function removeBook (id) {
   if (localStorage.getItem('Books') == null) {
     books = [];
   } else {
