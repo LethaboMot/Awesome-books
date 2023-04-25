@@ -57,3 +57,5 @@ function removeBook(id) {
   display();
   removeBook('');
 }
+deleteButton.addEventListner("click", removeButton())
+
