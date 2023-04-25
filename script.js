@@ -19,16 +19,16 @@ const addBooks = (Title, Author) => {
     books.push(obj);
     localStorage.setItem('Books', JSON.stringify(books));
   }
-}
+};
 
 window.addEventListener('DOMContentLoaded', () => {
-    display();
+  display();
 });
 
 function display() {
-  if (localStorage.getItem('Books') == null){
-       books = [];
-    } else {
+  if (localStorage.getItem('Books') == null) {
+    books = [];
+  } else {
     books = JSON.parse(localStorage.getItem('Books'));
   }
 
@@ -43,17 +43,17 @@ function display() {
         </div>
   `;
   });
-    addedSection.innerHTML = display;
+  addedSection.innerHTML = display;
 }
 
-  const removeBook = (id) => {
-    if (localStorage.getItem('Books') == null) {
-      books = [];
-    } else {
-      books = JSON.parse(localStorage.getItem('Books'));
-    }
-    const bookIndex = books.findIndex((item, i) => i === id);
-    books.splice(bookIndex, 1);
-    localStorage.setItem('Books', JSON.stringify(books));
-    display();
-  };
+const removeBook = (id) => {
+  if (localStorage.getItem('Books') == null) {
+    books = [];
+  } else {
+    books = JSON.parse(localStorage.getItem('Books'));
+  }
+  const bookIndex = books.findIndex((item, i) => i === id);
+  books.splice(bookIndex, 1);
+  localStorage.setItem('Books', JSON.stringify(books));
+  display();
+};
