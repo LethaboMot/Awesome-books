@@ -45,7 +45,6 @@ addButton.addEventListener('click', (e) => {
 window.addEventListener('DOMContentLoaded', () => {
   display('');
 });
-
 function removeBook (id) {
   if (localStorage.getItem('Books') == null) {
     books = [];
@@ -56,4 +55,4 @@ function removeBook (id) {
   books.splice(bookIndex, 1);
   localStorage.setItem('Books', JSON.stringify(books));
   display();
-};
+}
