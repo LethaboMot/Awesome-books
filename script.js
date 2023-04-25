@@ -6,7 +6,7 @@ const addBooks = (Title, Author) => {
   if (Title !== '' && Author !== '') {
     const obj = {
       title: Title,
-      author: Author
+      author: Author,
     };
     books.push(obj);
     localStorage.setItem('Books', JSON.stringify(books));
