@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+button {
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+input {
+  margin-top: 10px;
+}
+
+form {
+  padding-left: 10px;
+}
+
