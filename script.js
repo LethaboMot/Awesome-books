@@ -42,13 +42,9 @@ addButton.addEventListener('click', (e) => {
   display('');
 });
 
-
-
 window.addEventListener('DOMContentLoaded', () => {
   display('');
 });
-
-
 
 const removeBook = (id) => {
   if (localStorage.getItem('Books') == null) {
