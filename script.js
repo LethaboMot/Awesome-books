@@ -55,5 +55,7 @@ function removeBook(id) {
   books.splice(bookIndex, 1);
   localStorage.setItem('Books', JSON.stringify(books));
   display();
+  removeBook('');
 }
-removeBook();
+const deleteButton = document.getElementByClassName('remove');
+deleteButton.addEventListner('click', removeBook());
