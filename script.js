@@ -5,22 +5,22 @@ class Book {
   }
 }
 
-const book = document.getElementsByClassName("books")[0];
+const book = document.getElementsByClassName('books')[0];
 
 class display {
   static getBooks() {
     let books;
-    if (localStorage.getItem("books") == null) {
+    if (localStorage.getItem('books') == null) {
       books = [];
     } else {
-      books = JSON.parse(localStorage.getItem("books"));
+      books = JSON.parse(localStorage.getItem('books'));
     }
     return books;
   }
 
   static displayBooks() {
     const books = display.getBooks();
-    let dp = "";
+    let dp = '';
     books.forEach((book, i) => {
       dp += `
               <div class="allbooks">
@@ -32,13 +32,13 @@ class display {
   }
 
   static addBook() {
-    const titleInput = document.querySelector("#title").value;
-    const authorInput = document.querySelector("#author").value;
-    if (titleInput !== "" && authorInput !== "") {
+    const titleInput = document.querySelector('#title').value;
+    const authorInput = document.querySelector('#author').value;
+    if (titleInput !== '' && authorInput !== '') {
       const newBook = new Book(titleInput, authorInput);
       const books = display.getBooks();
       books.push(newBook);
-      localStorage.setItem("books", JSON.stringify(books));
+      localStorage.setItem('books', JSON.stringify(books));
       this.displayBooks();
     }
   }
