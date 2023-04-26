@@ -24,3 +24,26 @@ form {
 .content {
   text-align: center;
 }
+
+.allbooks {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.books {
+  align-items: center;
+  padding-left: 50px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-left: 120px;
+  margin-right: 100px;
+}
+
+.removeBtn {
+  margin-top: 3px;
+  margin-left: 60px;
+  width: 40px;
+  height: 15px;
+  font-size: 6px;
+}

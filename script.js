@@ -47,15 +47,15 @@ class display {
     const books = display.getBooks();
     const bookIndex = books.findIndex((item, i) => i === id);
     books.splice(bookIndex, 1);
-    localStorage.setItem("books", JSON.stringify(books));
+    localStorage.setItem('books', JSON.stringify(books));
     this.displayBooks();
   }
 }
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener('DOMContentLoaded', () => {
   display.displayBooks();
 });
-const form = document.querySelector(".form");
-form.addEventListener("submit", (evt) => {
+const form = document.querySelector('.form');
+form.addEventListener('submit', (evt) => {
   evt.preventDefault();
   display.addBook();
   form.reset();
