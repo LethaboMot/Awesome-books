@@ -1,12 +1,12 @@
-
-
-const book = document.getElementsByClassName('books')[0];
 class Book {
   constructor(title, author) {
     this.title = title;
     this.author = author;
   }
 }
+
+const book = document.getElementsByClassName('books')[0];
+
 class display {
   static getBooks() {
     let books;
