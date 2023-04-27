@@ -1,7 +1,7 @@
-function Book (title, author) {
-    this.title = title;
-    this.author = author;
-};
+function Book(title, author) {
+  this.title = title;
+  this.author = author;
+}
 
 const book = document.getElementsByClassName('books')[0];
 
