@@ -56,12 +56,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [SPA] <a name="about-project"></a>
-
-- Open  repository
-- make a feature branch
-- in the feature branch this where i started the project
-- setup the the github workflow 
+# 📖 [Single-page-APP] <a name="about-project"></a>
 - used html file for the header
 - used css file to set a color to the header
 - Javascript made the local storage
