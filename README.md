@@ -73,8 +73,6 @@ After you're finished please remove all the comments and instructions!
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-
 - Open  repository
 - make a feature branch
 - in the feature branch this where i started the project
@@ -90,15 +88,6 @@ To get a local copy up and running, follow these steps.
 - **[made the local storage]**
 - **[type in the text boxes and they object will appear]**
 - **[pressing the remove button will remove the content on the screen]**
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link]()
-- [video link]
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Setup
