@@ -139,7 +139,7 @@ button#book-add-button {
 .footer {
   width: 99%;
   margin: 20px 0 0 0;
-  border: 5px solid #3e3e3e;
+  border: 1px solid #3e3e3e;
   height: 6vh;
   position: relative;
 }
@@ -175,4 +175,8 @@ button#book-add-button {
   font-weight: 700;
   font-size: 16px;
   padding: 3px;
+}
+
+.date-time {
+  margin-left: 900px;
 }
