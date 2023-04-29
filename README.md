@@ -56,14 +56,16 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [desktop version] <a name="about-project"></a>
+# 📖 [SPA] <a name="about-project"></a>
 
 - Open  repository
 - make a feature branch
 - in the feature branch this where i started the project
 - setup the the github workflow 
 - used html file for the header
-- used css file to set a color to the header 
+- used css file to set a color to the header
+- Javascript made the local storage
+- Made as if the user were to put the name of the book and the author it the information would be displayed on the List page
 
 **[Portfolio]** is a...
 
