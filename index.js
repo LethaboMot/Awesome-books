@@ -34,14 +34,13 @@ export default class BookShelf {
     localStorage.setItem(storageKey, JSON.stringify(this.arrBooks));
   }
 
-   showBooks() {
-
-    let addElement = (elementType, parent, className) => {
+  showBooks() {
+  const addElement = (elementType, parent, className) => {
       const element = document.createElement(elementType);
       element.classList.add(className);
       parent.appendChild(element);
       return element;
-    }
+    };
 
     const bookList = document.querySelector('.book-list');
     this.arrBooks.forEach((book) => {

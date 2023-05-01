@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-  
+
 body {
   max-width: 100%;
   display: flex;
@@ -11,7 +11,7 @@ body {
   align-items: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-  
+
 li {
   list-style-type: none;
 }
@@ -37,7 +37,7 @@ li {
 }
 
 .links-desc {
- display: flex;
+  display: flex;
   flex-direction: row;
   list-style: none;
   border-right: 2px solid #3e3e3e;
@@ -59,9 +59,9 @@ li {
 .date {
   float: right;
   margin-bottom: 200px;
-  }
+}
 
-  .book-container {
+.book-container {
   width: 90%;
   margin: 0 auto;
   margin-top: 100px;
@@ -109,11 +109,11 @@ button#book-add-button {
   padding: 5px 5px;
   position: relative;
 }
-  
+
 .book-item:nth-child(even) {
   background-color: #807c7c;
 }
-  
+
 .book-title,
 .book-author {
   margin-bottom: 5px;
@@ -184,4 +184,3 @@ button#book-add-button {
 .date-time {
   margin-left: 900px;
 }
-  
