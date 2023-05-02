@@ -1,5 +1,8 @@
-import { dateTime } from './index.js';
+import { DateTime } from "./index.js";
 
-timeNow = new Date();
-timeNow();
-dateTime();
+const { DateTime } = require("./index.js");
+const getTime = () => {
+    const utc2 = DateTime .local().setZone('South Africa/Johannesburg')
+    return utc2.toLocalString(dateTime.DATETIME_FULL)
+}
+getTime();
