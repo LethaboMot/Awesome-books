@@ -36,10 +36,10 @@ export default class BookShelf {
 
   showBooks() {
   const addElement = (elementType, parent, className) => {
-      const element = document.createElement(elementType);
-      element.classList.add(className);
-      parent.appendChild(element);
-      return element;
+    const element = document.createElement(elementType);
+    element.classList.add(className);
+    parent.appendChild(element);
+    element;
     };
 
     const bookList = document.querySelector('.book-list');
