@@ -1,7 +1,7 @@
-const { DateTime } = require('./index.js;');
+const { dateTime } = require('./index.js;');
 const getTime = () => {
-  const utc2 = DateTime .local().setZone('South Africa/Johannesburg');
+  const utc2 = dateTime.local().setZone('South Africa/Johannesburg');
   return utc2.toLocalString(dateTime.DATETIME_FULL);
-}
+};
 getTime();
 dateTime();
