@@ -40,7 +40,7 @@ export default class BookShelf {
       element.classList.add(className);
       parent.appendChild(element);
       return element;
-  };
+    };
 
     const bookList = document.querySelector('.book-list');
     this.arrBooks.forEach((book) => {
