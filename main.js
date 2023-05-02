@@ -1,4 +1,4 @@
 import BookShelf from './index.js';
 
 awesomeBookShelf = () => awesomeBookShelf = BookShelf();
-awesomeBookShelf();
+awesomeBookShelf(elementType, parent, className);
