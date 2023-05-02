@@ -1,4 +1,5 @@
-import {dateTime} from "./index";
+import {dateTime} from './index.js';
 
 const timeNow = new Date();
 timeNow();
+dateTime();
