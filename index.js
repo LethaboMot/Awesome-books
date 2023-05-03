@@ -16,15 +16,7 @@ export default class BookShelf {
     this.arrBooks = [];
   }
 
-  addBook(newTitle, newAuthor) {
-    const newBook = {
-      id: timeNow.getTime(),
-      title: newTitle,
-      author: newAuthor,
-    };
-
-    this.arrBooks.push(newBook);
-  }
+  
 
   removeBook(id) {
     this.arrBooks = this.arrBooks.filter((book) => book.id !== id);
@@ -32,6 +24,15 @@ export default class BookShelf {
 
   saveDataToLocalStorage() {
     localStorage.setItem(storageKey, JSON.stringify(this.arrBooks));
+  }
+
+  addBook(newTitle, newAuthor) {
+    const newBook = {
+      title: newTitle,
+      author: newAuthor,
+    };
+
+    this.arrBooks.push(newBook);
   }
 
   showBooks() {
