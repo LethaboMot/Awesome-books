@@ -1,4 +1,4 @@
-const { DateTime } = require("luxon");
+const { DateTime } = require("luxon.js");
 
 const local = DateTime.local();
 local.zoneName; 
