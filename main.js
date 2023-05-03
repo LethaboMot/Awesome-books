@@ -1,4 +1,17 @@
 import BookShelf from './index.js';
+const dateTime = document.querySelector('.date-time');
+const timeNow = new Date();
 
-BookShelf = () => {};
-BookShelf();
+BookShelf = () => {
+  const newBook = {
+    id: timeNow.getTime(),
+    title: newTitle,
+    author: newAuthor,
+  };
+  
+  this.arrBooks.push(newBook);
+}    
+
+window.onload = () => {
+  dateTime.innerHTML = timeNow;
+};
