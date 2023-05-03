@@ -1,5 +1,10 @@
-import DateTime from './index.js';
+const { DateTime } = require('./main.js');
+const currentDateTime = DateTime.local().toLocaleString(DateTime.TIME_WITH_SECONDS);
+const currentTimeElement = document.getElementById('current-time');
+currentTimeElement.innerHTML = currentDateTime;
 
-const currentTime = DateTime.local();
-const formattedTime = `The current time is ${currentTime.toLocaleString(DateTime.TIME_SIMPLE)} using Luxon.`;
-document.getElementsByClassName('.date-time').innerHTML = formattedTime;
+const dateTime = document.querySelector('.date-time');
+
+window.onload = () => {
+  dateTime.innerHTML = timeNow;
+};
