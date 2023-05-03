@@ -1,4 +1,4 @@
-import DateTime from 'luxon.js';
+import DateTime from './index.js';
 
 const currentTime = DateTime.local();
 const formattedTime = `The current time is ${currentTime.toLocaleString(DateTime.TIME_SIMPLE)} using Luxon.`;
