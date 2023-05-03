@@ -1,24 +1,8 @@
-require('.date-time').config();
-const { DateTime } = require('luxon');
+let output = document.querySelector('.date-time');
+ output.textContent = JSON.stringify(luxon.DateTime.DATETIME_FULL);
 
-const getTime = () => {
-  const ut2 = DataTime.local().setZone('South Africa/Johannesburg');
-  return ut2.toLocalString(DateTime.DATETIME_FULL);
-}
-
-const timeMath = () => {
-  const first = DateTime.local().setZone('South Africa/Johannesburg')
-    let second = DataTime.local()
-    .setZone('South Africa/Johannesburg')
-    .plus({ hours: 1, minutes: 20});
-
-    const diffTime = second.diff(first, ['hours','minutes','seconds']);
-};
-
-const convertISO = () => {
-   const originalISO =  '2023-05-18'
-
-   const formatted = DataTime.fromISO(originalISO, {
-    zone: 'South Africa/Johannesburg'
-   })
-}
+ let DateTime = luxon.DateTime;
+ let today = DateTime.local();
+ let f = {month: 'long', day: '2-digit'};
+ let m = today.get('month');
+ let newDt = today.set({month: 12});
