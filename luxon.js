@@ -3,3 +3,4 @@ const getTime = () => {
   return utc2.toLocalString(dateTime.DATETIME_FULL);
 };
 getTime();
+dateTime('');
