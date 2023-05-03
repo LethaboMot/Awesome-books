@@ -1,6 +1,5 @@
-const getTime = () => {
-  const utc2 = dateTime.local().setZone('South Africa/Johannesburg');
-  return utc2.toLocalString();
-};
-dateTime();
-getTime();
+import { dateTime } from './index.js';
+const { DateTime } = require('luxon');
+BookInstanceSchema.virtual("due_back_formatted").get(function () {
+  return DateTime.fromJSDate(this.due_back).toLocaleString(DateTime.DATE_MED);
+});
