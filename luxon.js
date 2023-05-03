@@ -1,6 +1,5 @@
 const getTime = () => {
   const utc2 = dateTime.local().setZone('South Africa/Johannesburg');
-  return utc2.toLocalString(dateTime.DATETIME_FULL);
+  return utc2.toLocalString('');
 };
 getTime();
-dateTime('');
