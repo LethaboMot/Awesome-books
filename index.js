@@ -16,8 +16,6 @@ export default class BookShelf {
     this.arrBooks = [];
   }
 
-  
-
   removeBook(id) {
     this.arrBooks = this.arrBooks.filter((book) => book.id !== id);
   }
