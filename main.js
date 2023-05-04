@@ -15,3 +15,5 @@ BookShelf();
 window.onload = () => {
   dateTime.innerHTML = timeNow;
 };
+newTitle();
+newAuthor();
