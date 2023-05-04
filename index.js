@@ -8,7 +8,8 @@ const linkContact = document.querySelector('#link-contact');
 const books = document.querySelector('.book-shelf');
 const form = document.querySelector('.form');
 const contact = document.querySelector('.contact');
-
+const dateTime = document.querySelector('.date-time');
+const timeNow = new Date();
 export default class BookShelf {
   constructor() {
     this.arrBooks = [];
@@ -106,5 +107,3 @@ window.onload = () => {
   awesomeBookShelf.loadDataFromLocalStorage();
   dateTime.innerHTML = timeNow;
 };
-const dateTime = document.querySelector('.date-time');
-const timeNow = new Date();
