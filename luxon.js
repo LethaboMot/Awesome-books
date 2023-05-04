@@ -1,4 +1,4 @@
-const { DateTime } = require('./main.js');
+const { DateTime } = require('./index.js');
 const currentDateTime = DateTime.local().toLocaleString(DateTime.TIME_WITH_SECONDS);
 const currentTimeElement = document.getElementById('current-time');
 currentTimeElement.innerHTML = currentDateTime;
