@@ -8,9 +8,9 @@ BookShelf = () => {
     title: newTitle,
     author: newAuthor,
   };
-  
   this.arrBooks.push(newBook);
-}    
+};
+BookShelf();    
 
 window.onload = () => {
   dateTime.innerHTML = timeNow;
